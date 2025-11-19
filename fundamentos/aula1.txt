@@ -1,0 +1,32 @@
+Fundamentos do JS
+
+Js não é java
+
+O nome da linguagem Javascript é Ecma
+
+É possivel executar o Js diretamente no navegador de internet
+
+O javaScript pode ser utilizado também fora do navegador de internet
+com uso da plataforma node
+
+particularidades da linguagem (sintaxe basica)
+1) No javaScript não usamos o conceito de linha e sim de setença
+2) ; é opcional
+3) Podemos usar " ou ' (não pode misturar) Dica: usar " para textos e ' para importações
+4) No JS só existe 3 tipos de variaveis (string, number e booler)
+string (caracteres)
+number (numeros inteiros e não inteiros)
+boolean (verdadeiro ou falso)
+5) No JS as variaveis são dinamicamente tipadas, ou seja o tipo e determinado quando um valor é atribuido
+
+____________________________________________________________________________________________________
+Javascript no front-end
+<script></script>
+
+<script src="script.js"></script>
+
+html --- js
+
+
+IMPORTANTE! Sempre vincular um documento JS antes do fechamento da tag </body>, pois o JS trava a execução do html
+se contiver erros
