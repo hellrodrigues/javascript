@@ -25,11 +25,11 @@ function calcular (){
         document.getElementById('status').scr="./img/imc5.png"
     } else if ( imc < 25) {
         document.getElementById('status').scr="./img/imc6.png"
-    } else ( imc < 25) {
+    } else ( imc < 25) 
         document.getElementById('status').scr="./img/imc7.png"
     }
 
-}
+
 function limpar() {
     document.getElementById('status').src = "./img/imc.png"
 }
