@@ -1,0 +1,6 @@
+Strings
+No JavaScript temos bibliotecas e metodos nativos para trabalhar com as
+variaveis dinamicamente tipadas
+.replace("Y","y") //troca uma caractere por outro
+
+//Contenaçao: Não usar o "+" para concatenr um texto com variaveis, existe a possibiliade do resultado ser diferente a tipagem dinamica
