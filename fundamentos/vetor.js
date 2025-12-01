@@ -35,3 +35,13 @@ let notas = [2,5,8,7,9,4]
 for (let i = 0; i < notas.length; i++) {
     console.log(notas[i])
 }
+
+//simplificando do laço para percorrer um array
+//for each
+notas.forEach((notas) => {
+    console.log(notas)
+})  
+//in
+for (let i in notas) {
+    console.log(notas[i])
+}
