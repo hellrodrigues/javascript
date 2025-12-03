@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+/* Container responsivo */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+/* Botão */
+button {
+    padding: 10px 30px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Carta responsiva */
+.carta {
+    width: 250px;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,0.4) 0px 2px 4px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.carta:active {
+    transform: scale(0.98);
+}
+
+/* Cantos */
+.canto {
+    position: absolute;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#supEsq {
+    top: 15px;
+    left: 15px;
+}
+
+#infDir {
+    bottom: 20px;
+    right: 15px;
+    transform: rotate(180deg);
+}
+
+/* Área central */
+.centro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.centro img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
+
+/* 📱 RESPONSIVIDADE PARA CELULAR */
+@media (max-width: 480px) {
+    .carta {
+        width: 260px;
+        height: 360px;
+    }
+
+    .canto {
+        font-size: 1.2rem;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 8px 22px;
+    }
+}
+
+/* 💻 RESPONSIVIDADE PARA TELAS GRANDES */
+@media (min-width: 1200px) {
+    .carta {
+        width: 350px;
+        height: 450px;
+    }
+
+    .canto {
+        font-size: 1.8rem;
+    }
+
+    button {
+        font-size: 1.3rem;
+    }
+}
